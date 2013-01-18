@@ -17,6 +17,7 @@ public class ChatServer {
     private static HashSet<PrintWriter> writers = new HashSet<PrintWriter>();
 
     public static void main(String[] args) throws Exception {
+    	System.out.println("Hello");
     	ChatServer c=new ChatServer();
         System.out.println("The chat server is running.");
         ServerSocket listener = new ServerSocket(PORT);
